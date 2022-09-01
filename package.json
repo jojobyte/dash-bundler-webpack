@@ -18,5 +18,9 @@
   "homepage": "https://github.com/wmerfalen/dash-bundler-webpack#readme",
   "dependencies": {
     "dashsight": "^1.1.0-0"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }
