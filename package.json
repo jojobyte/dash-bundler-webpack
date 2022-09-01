@@ -1,0 +1,22 @@
+{
+  "name": "dash-bundler-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmerfalen/dash-bundler-webpack.git"
+  },
+  "author": "William Merfalen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmerfalen/dash-bundler-webpack/issues"
+  },
+  "homepage": "https://github.com/wmerfalen/dash-bundler-webpack#readme",
+  "dependencies": {
+    "dashsight": "^1.1.0-0"
+  }
+}
