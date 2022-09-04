@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "watch": {
+    "build": "src/*.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-watch",
+    "build": "webpack --config prod.config.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +22,22 @@
   },
   "homepage": "https://github.com/wmerfalen/dash-bundler-webpack#readme",
   "dependencies": {
-    "dashsight": "^1.1.0-0"
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "dashsight": "^1.1.0-0",
+    "fetch": "^1.1.0",
+    "https-browserify": "^1.0.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
   },
   "devDependencies": {
+    "npm-watch": "^0.11.0",
+    "serve": "^14.0.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }
