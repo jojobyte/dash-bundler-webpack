@@ -20,21 +20,4 @@ module.exports = {
       process: "process/browser",
     }),
   ],
-  resolve: {
-    fallback: {
-      fs: false,
-      dns: false,
-      net: false,
-      assert: require.resolve("assert"),
-      buffer: require.resolve("buffer"),
-      crypto: require.resolve("crypto-browserify"),
-      http: require.resolve("stream-http"),
-      https: require.resolve("https-browserify"),
-      path: require.resolve("path-browserify"),
-      "./request.js": require.resolve("@root/request/browser.js"),
-      stream: require.resolve("stream-browserify"),
-      url: require.resolve("url"),
-      zlib: require.resolve("browserify-zlib"),
-    },
-  },
 };
